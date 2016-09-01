@@ -8,6 +8,7 @@ void setup()
   size(300,300);
   strokeWeight(5);	
   background(255);
+  photo = loadImage("troll.png")
 }
 
 void mousePressed()
@@ -20,8 +21,7 @@ void mousePressed()
 
 void draw()
 {
-	ellipse(0,20,250,300);
-	
+	//ellipse(0,20,250,300);
 	stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
 	startX=endX;
 	startY=endY;	
